@@ -45,8 +45,9 @@ Now, let's get into how to actually develop on this project:
     2. In the bottom right, you should see a button that says "master." This indicates that you're on the master branch (*WHERE YOU SHOULDN"T BE*).
     3. To create a new branch for yourself to develop a feature, click on master, then click on new branch.
     4. Type in a name for your new branch.
-    5. Congrats, you made a new branch.
-    6. To move into this new branch you made, click on the branch button in the bottom right and click on the branch you made from the drop down menu. If it says that you're on your branch at the bottom right and NOT the master branch, then you're good to go. You can now open eclipse and start coding away.
+    5. Go to the bottom right and click on the Publish button -- this basically uploads your branch to the remote repo on GitHub.
+    6. Congrats you made a new branch.
+    7. To move into this new branch you made, click on the branch button in the bottom right and click on the branch you made from the drop down menu. If it says that you're on your branch at the bottom right and NOT the master branch, then you're good to go. You can now open eclipse and start coding away.
   - Now you must be confused where to create files in this confusing file system. 
     - For the Servlet and Model developers who will be coding Java classes, all Java classes will go under Java Resources/src/UserUtils
     - For you web developers, all of your web pages will go under WebContent and your css pages will go under WebContent/css.
