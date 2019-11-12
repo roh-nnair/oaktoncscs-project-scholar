@@ -58,6 +58,10 @@ Now, let's get into how to actually develop on this project:
   - After we're done pulling, we must now click push. When we push, we're pushing all of the commits we have made on our computer onto the remote repository. This is how everybody will be able to see, acknowledge, and edit the changes you have made. The remote repository on GitHub is what's bridging our collaboration.
   - *PLEASE NOTE: When you make a branch on your local repo, it is YOUR branch and therefore only YOU can push commits to it. After you make a branch and publish it to GitHub, sure, everyone can see it. However, when everybody pulls commits from the remote repo, it will ONLY pull commits from the master branch, NOT any branches you have made. This means that even though you're pushing commits from your branch to GitHub, and everyone can see these commits under your branch, when other people pull, they will not have your branch in their local repo and vice versa. 
   - So how exactly will the commits you make from these branches be incorporated into the master branch? Well, once you're done with all of the changes and features you wanted to make in your branch, you must make a pull request. To do this, go to the oaktoncscs-project-scholar repo on GitHub, switch to your branch, and say make a pull request. When you make a pull request, PLEASE include an explanation as to what features you have added and what files you have edited/added/deleted. I, the dictator of this project, will review your request and determine if it's worthy of being pulled into the master-branch.
+  
+*ATTENTION ALL SERVER SIDE DEVELOPERS: I will be posting how to code and develop for the Servlet Controller and Model developers in a text file called Servlet-Tutorial.txt.
+
+
 
 
 
