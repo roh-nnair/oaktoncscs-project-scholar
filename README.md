@@ -15,7 +15,7 @@ database.
 
 ### Web Devs
 
-For those who don't know Java, it'll be hard for you to contribute to the server-side development of the Controller Servlet and model.
+- For those who don't know Java, it'll be hard for you to contribute to the server-side development of the Controller Servlet and model.
 It would be best for to focus on the front-end development (HTML, CSS, Javascript) of the project.
 HTML, CSS, and Javascript are extremely easy for you to learn on your own and there are an abundance of online sources that can teach you everything you need to know about frontend development with these languages.
 This portion of the project is extremely important as we want people to feel comfortable and engaged in interacting with our web app (AKA UX).
@@ -158,7 +158,7 @@ Break code snippets (in <pre> blocks) at 80 characters.
 
 ## Built With
 
-* [Eclipse](https://www.eclipse.org/downloads/packages/release/kepler/sr1/eclipse-ide-java-developers) - The Java IDE used
+* [Exlipse](https://www.eclipse.org/downloads/packages/release/kepler/sr1/eclipse-ide-java-developers) - The Java IDE used
 * [Atom](https://atom.io/) - Code editor and version control
 
 ## Contributing
@@ -167,7 +167,7 @@ For anyone outside of Oakton CSCS Club please read [CONTRIBUTING.md]() for detai
 
 ## Authors
 
-* **Rohan Nair** - *Project Leader* - [CoffeeMeat](https://github.com/CoffeeMeat)
+* **Rohan Nair** - *Project Leader* - [CofeeMeat](https://github.com/CoffeeMeat)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
