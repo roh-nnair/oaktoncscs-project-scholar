@@ -155,9 +155,9 @@ Break code snippets (in \<pre> blocks) at 80 characters.
 
 #### CSS:
 
-- **Use valid CSS where possible.**; Unless dealing with CSS validator bugs or requiring proprietary syntax, use valid CSS code.
-- **Use meaningful or generic ID and class names.**; Use ID and class names that are as short as possible but as long as necessary.
-- **Avoid qualifying ID and class names with type selectors.**; Unless necessary (for example with helper classes), do not use element names in conjunction with IDs or classes.
+- **Use valid CSS where possible**; Unless dealing with CSS validator bugs or requiring proprietary syntax, use valid CSS code.
+- **Use meaningful or generic ID and class names**; Use ID and class names that are as short as possible but as long as necessary.
+- **Avoid qualifying ID and class names with type selectors**; Unless necessary (for example with helper classes), do not use element names in conjunction with IDs or classes.
 
 #### JAVA:
 ```
