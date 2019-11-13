@@ -20,8 +20,8 @@ It would be best for to focus on the front-end development (HTML, CSS, Javascrip
 HTML, CSS, and Javascript are extremely easy for you to learn on your own and there are an abundance of online sources that can teach you everything you need to know about frontend development with these languages.
 This portion of the project is extremely important as we want people to feel comfortable and engaged in interacting with our web app (AKA UX).
 
-- If you are looking to learn start here: https://www.freecodecamp.org/learn.
-- If you just need a reference, a great resource is located here https://developer.mozilla.org/en-US/docs/Web.
+  - If you are looking to learn start here: https://www.freecodecamp.org/learn.
+  - If you just need a reference, a great resource is located here https://developer.mozilla.org/en-US/docs/Web.
 
 When you are ready to get coding, check the TODO.md list or start by thinking what pages this site might need, and then create the new web pages and make them look awesome.
 
@@ -125,7 +125,7 @@ Once you're done with all of the changes and features you wanted to make in your
 
 **ATTENTION ALL SERVER SIDE DEVELOPERS:** I will be posting how to code and develop for the Servlet Controller and Model developers in a text file called Servlet-Tutorial.txt.
 
-### And coding style tests
+### Coding style requirements
 
 Please follow these formatting rules when writing your code to maintain readability and overall collaboration:
 
@@ -144,7 +144,7 @@ Please follow these formatting rules when writing your code to maintain readabil
     class="external-link">his biography.</a>
   ```
 
-Break code snippets (in <pre> blocks) at 80 characters.
+Break code snippets (in \<pre> blocks) at 80 characters.
 
 #### CSS:
 
