@@ -56,7 +56,8 @@ We will be using Atom to develop HTML + CSS as well as share our commits to the 
 4. Then click "GitHub clone"
 5. Go to https://github.com/CoffeeMeat/oaktoncscs-project-scholar
 6. Click on the green "clone or download" button and copy the link
-*Before you do step 7, make sure that you're about to clone into a folder you want to use for your eclipse workspace.
+*Before you do step 7, make sure that you're about to clone into a folder you want to use for your eclipse
+ workspace.
 7. Go back to atom and paste the link in the URL bar
 8. Do whatever authentication Atom asks you to do
 9. Viola! The repository is now on your computer!
@@ -70,7 +71,8 @@ Here's the process of using eclipse to start developing code in the repo.
 
 ```
 1. Open eclipse in the workspace you cloned the repo in
-2. If the project doesn't show up in the project explorer, then click on File at the top right, select oaktoncscs-project-scholar, then click finish.
+2. If the project doesn't show up in the project explorer, then click on "File"
+ at the top right, select oaktoncscs-project-scholar, then click finish.
 ```
 
 Now that the project is in our project explorer, let's explain how we'll be developing code.
@@ -81,12 +83,17 @@ The main rule that WE MUST FOLLOW is ***DO NOT MAKE COMMITS TO THE MASTER BRANCH
 
 ```
 1. Open up the project folder in Atom
-2. In the bottom right corner, you should see a button that says "master." This indicates that you're on the master branch (**WHERE YOU SHOULDN'T BE**).
+2. In the bottom right corner, you should see a button that says "master."
+ This indicates that you're on the master branch (**WHERE YOU SHOULDN'T BE**).
 3. To create a new branch for developing a feature, click on master, then click on new branch.
-4. Type in a name for your new branch relative to the feature (EX: contact us page branch might be called "contact-us").
-5. Go to the bottom right and click on the Publish button -- this basically uploads your branch to the remote repo on GitHub.
+4. Type in a name for your new branch relative to the feature
+  (EX: contact us page branch might be called "contact-us").
+5. Go to the bottom right and click on the Publish button
+ this uploads your branch to the remote repo on GitHub.
 6. Congrats you made a new branch.
-7. To move into this new branch you made, click on the branch button in the bottom right and click on the branch you made from the drop down menu. If it says that you're on your branch at the bottom right and NOT the master branch, then you're good to go. You can now open eclipse and start coding away.
+7. To move into this new branch you made, click on the branch button in the bottom right corner,
+ and click on the branch you made from the drop down menu. If it says that you're on your branch,
+ and NOT the master branch, then you're good to go. You can now open eclipse and start coding away.
 ```
 Make sure to push as often as is reasonable.
 
