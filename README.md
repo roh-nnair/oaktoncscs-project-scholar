@@ -127,7 +127,9 @@ Once you're done with all of the changes and features you wanted to make in your
 ```
 1. Go to the oaktoncscs-project-scholar repo on GitHub
 2. Switch to your branch, and say make a pull request.
-  - When you make a pull request, PLEASE include an explanation as to what features you have added and what files you have edited/added/deleted. Rohan, the dictator of this project, will review your request and determine if it's worthy of being pulled into the master-branch.
+  - When you make a pull request, PLEASE include an explanation as to what features you have added and what
+  files you have edited/added/deleted. Rohan, the dictator of this project, will review your request and
+  determine if it's worthy of being pulled into the master-branch.
 ```
 
 **ATTENTION ALL SERVER SIDE DEVELOPERS:** I will be posting how to code and develop for the Servlet Controller and Model developers in a text file called Servlet-Tutorial.txt.
