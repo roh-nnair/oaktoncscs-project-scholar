@@ -158,7 +158,7 @@ Break code snippets (in \<pre> blocks) at 80 characters.
 
 ## Built With
 
-* [Exlipse](https://www.eclipse.org/downloads/packages/release/kepler/sr1/eclipse-ide-java-developers) - The Java IDE used
+* [Eclipse](https://www.eclipse.org/downloads/packages/release/kepler/sr1/eclipse-ide-java-developers) - The Java IDE used
 * [Atom](https://atom.io/) - Code editor and version control
 
 ## Contributing
@@ -167,7 +167,7 @@ For anyone outside of Oakton CSCS Club please read [CONTRIBUTING.md]() for detai
 
 ## Authors
 
-* **Rohan Nair** - *Project Leader* - [CofeeMeat](https://github.com/CoffeeMeat)
+* **Rohan Nair** - *Project Leader* - [CoffeeMeat](https://github.com/CoffeeMeat)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
