@@ -90,7 +90,7 @@ The main rule that WE MUST FOLLOW is ***DO NOT MAKE COMMITS TO THE MASTER BRANCH
 ```
 Make sure to push as often as is reasonable.
 
-### Where to create files
+### Where To Create Files
 
 Now you must be confused where to create files in this confusing file system. Let me explain:
 
@@ -125,7 +125,7 @@ Once you're done with all of the changes and features you wanted to make in your
 
 **ATTENTION ALL SERVER SIDE DEVELOPERS:** I will be posting how to code and develop for the Servlet Controller and Model developers in a text file called Servlet-Tutorial.txt.
 
-### Coding style requirements
+### Coding Style Requirements
 
 Please follow these formatting rules when writing your code to maintain readability and overall collaboration:
 
