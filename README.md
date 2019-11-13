@@ -35,7 +35,9 @@ Now, let's get into how to actually develop on this project:
     8. do whatever authentication atom asks you to do
     9. Viola! The repository is now on your computer!
   - Unless you guys happen to have git bash installed on your computer, you guys will mainly be using atom for its git functionality to push and pull commits to and from the remote repository. (I'll explain this in a bit)
-  - Anyways, moving on to development itself. We will be using Eclipse to develop the web application as it has many useful utilities preinstalled and snippets that will make web app development much more fluid. 
+  - Anyways, moving on to development itself. 
+  - For the front-end HTML, CSS, and JavaScript developers, you guys will be using Atom to develop the web pages for the web application. You will be using Atom as it is a text editor that comes with a lot of built-in utilities and snippets that facilitates web development.
+  -For the server-side Java developers, you guys will be using Eclipse to develop the web application's Java Servlets and models as it has many useful utilities preinstalled and snippets that will make server-side development much more fluid. 
   - Here's the process of using eclipse to start developing code in the repo.
     1. open eclipse in the workspace you cloned the repo in
     2. if the project doesn't show up in the project explorer, then click on File at the top right, select oaktoncscs-project-scholar, then click finish.
