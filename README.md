@@ -169,6 +169,7 @@ Break code snippets (in \<pre> blocks) at 80 characters.
 
 * [Eclipse](https://www.eclipse.org/downloads/packages/release/kepler/sr1/eclipse-ide-java-developers) - The Java IDE used
 * [Atom](https://atom.io/) - Code editor and version control
+* [Apache Tomcat 9](https://tomcat.apache.org/download-90.cgi) - localhost server that we will use as the runtime environment
 
 ## Contributing
 
