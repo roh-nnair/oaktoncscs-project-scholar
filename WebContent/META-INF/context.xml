@@ -1,0 +1,8 @@
+<Resource name="jdbc/scholar_tracker" auth="Container" type="javax.sql.DataSource"
+          username="postgres"
+          password="Guntu6530"
+          driverClassName="org.postgresql.Driver"
+          url="jdbc:postgresql://localhost:5432/scholar_tracker"
+          maxTotal="25"
+          maxIdle="10"
+          validationQuery="select 1" /> 
