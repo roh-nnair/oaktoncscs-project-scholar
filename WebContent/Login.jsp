@@ -5,11 +5,12 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<link rel = "stylesheet" href = "css/login-style.css">
-		<title>Welcome to (insert app name here)!</title>
+		<title>Welcome to (insert title here)!</title>
 	</head>
 	
 	<body>
+		<h1>Login</h1>
 	
 	</body>
+	
 </html>
