@@ -11,7 +11,7 @@
 	<body>
 	    <div>
 	      <h1>Login</h1>
-	      <form action="Controller.java" method="post">
+	      <form action="Controller" method="POST">
 	        <label>Email: <input type="email" name="email" required></label>
           <br>
 	        <label>Password: <input type="password" name="password" required></label>
@@ -19,7 +19,7 @@
           <br>
           <div class="buttons">
             <input type="submit" value="Login">
-            <button>Sign Up</button>
+            <button><a href="SignUp.jsp">Sign Up</a></button>
           </div>
 	      </form>
 	    </div>

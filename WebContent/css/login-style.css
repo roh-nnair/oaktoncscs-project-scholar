@@ -9,8 +9,8 @@ div:not(.buttons){
 	border: 4px solid black;
 	padding: 20px;
 	margin-top: 50px;
-	margin-left: 70px;
-	margin-right: 70px;
+	margin-left: 80px;
+	margin-right: 80px;
 }
 
 div input{
@@ -24,7 +24,8 @@ div label:nth-of-type(2){
 }
 
 .buttons{
-	margin-left: 15px;
+	margin-left: auto;
+	margin-right: auto;
 	border: 0px;
 }
 
