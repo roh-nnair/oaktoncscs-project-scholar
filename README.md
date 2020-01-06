@@ -39,8 +39,11 @@ advanced developers alike, there'll always be ways for you to contribute to this
 Here are some things you will need to get running (see the "Built With" section for links):
 
 ```
-1. No matter what you will need Atom
-2. If you are doing Java development you will need Eclipse
+1. Atom
+2. Eclipse Java Enterprise Edition
+3. Apache Tomcat 9
+4. MySQL Workbench (Java Devs only)
+**Instructions for installation is in the #project-scholar channel in the CSCS discord
 ```
 
 ### Installing
