@@ -43,7 +43,7 @@ Here are some things you will need to get running (see the "Built With" section 
 2. Eclipse Java Enterprise Edition
 3. Apache Tomcat 9
 4. MySQL Workbench (Java Devs only)
-**Instructions for installation is in the #project-scholar channel in the CSCS discord
+*Instructions for installation is in the #project-scholar channel in the CSCS discord
 ```
 
 ### Installing
