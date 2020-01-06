@@ -75,7 +75,7 @@ Here's the process of using eclipse to start developing code in the repo.
 ```
 1. Open eclipse in the workspace you cloned the repo in
 2. If the project doesn't show up in the project explorer, then click on "File"
- at the top right, select oaktoncscs-project-scholar, then click finish.
+ at the top right, click on Import project folder, then select oaktoncscs-project-scholar, then click finish.
 ```
 
 Now that the project is in our project explorer, let's explain how we'll be developing code.
@@ -105,16 +105,17 @@ Make sure to push as often as is reasonable.
 Now you must be confused where to create files in this confusing file system. Let me explain:
 
 - For the Servlet and Model developers who will be coding Java classes, all Java classes will go under Java Resources/src/UserUtils
-- For you web developers, all of your web pages will go under WebContent and your css pages will go under WebContent/css.
+- For you web developers, all of your web pages will go under WebContent and your css pages will go under WebContent/css and your JavaScript files will go under WebContent/js
 
-Next, I'll teach you guys how we're going to collaborate by making commits and pushing and pulling them from GitHub.
+### Version Control
 
 - Once you've made some changes to your code and saved everything **IN YOUR BRANCH**, you're going to head over to Atom.
 
 ```
-1. In Atom, we'll go down to the bottom left corner and left click on the fetch/pull button.
-2. From the options we're first going to click on pull.
-3. After we've done a bit of coding, we must now click push.
+1. In Atom, we'll go down to the bottom right corner and switch the branch to master
+2. We're then going to right click the fetch/pull button at the bottom right and click pull. This ensures that everything in the master branch is up to date.
+3. After we've done that, switch back to your branch.
+4. After making some commits and doing a bit of coding, go back into atom and go down to the bottom right and right-click fetch/pull/push and click push. This ensures that the remote repo is up to date with your updates.
 ```
 - When we pull, we're essentially pulling all of the commits that have been made on the remote repository to the local repo we made on our computer. This ensures that our local repo is up to date with the current version.
 - When we push, we're pushing all of the commits we have made on our computer onto the remote repository. This is how everybody will be able to see, acknowledge, and edit the changes you have made.
