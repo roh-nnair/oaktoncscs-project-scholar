@@ -166,8 +166,31 @@ Break code snippets (in \<pre> blocks) at 80 characters.
 - **Avoid qualifying ID and class names with type selectors**; Unless necessary (for example with helper classes), do not use element names in conjunction with IDs or classes.
 
 #### JAVA:
+- ***Brackets will go below method headers and other signatures that require brackets** 
 ```
+  Example: public void int foo()
+           {
+              return 0;
+           }
 ```
+-***Comment all of your logic***
+-***Each line proceeding brackets must be 1 tab ahead of them***
+```
+  Example: method()
+           {
+              //code
+              if()
+              {
+                //code
+                for()
+                {
+                  //code
+                }
+              }
+            }
+```
+-***Use sensible variable and method names and follow the proper naming conventions***
+-***All method calls that has logic that involves querying personal confidential data from the database should be called in doPost(). If not, doGet() is a viable option.
 
 ## Built With
 
