@@ -9,7 +9,7 @@
 	</head>
 
 	<body>
-	    <div class="container">
+	    <div class="container text-center">
           <div class="col-lg-6">
           <h1>Login</h1>
         </div>
