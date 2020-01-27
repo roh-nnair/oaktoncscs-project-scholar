@@ -64,5 +64,29 @@ public class DatabaseUtility
 			close(conn, stmnt, null);
 		}
 	}
+	
+	public boolean retrieveUser(String email, String pass)
+	{
+		Connection conn = null;
+		PreparedStatement stmnt = null;
+		ResultSet rs = null;
+		try {
+			conn = ds.getConnection();
+			stmnt = conn.prepareStatement("SELECT * FROM users WHERE email = ?");
+			stmnt.setString(1, email);
+			rs = stmnt.executeQuery();
+			rs.next();
+			if(rs != null && rs.getString(2).equals(pass))
+				return true;
+		}
+		catch(Exception exc)
+		{
+			exc.printStackTrace();
+		}
+		finally {
+			close(conn, stmnt, rs);
+		}
+		return false;
+	}
 
 }

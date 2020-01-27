@@ -59,19 +59,41 @@ public class Controller extends HttpServlet
 	{
 		// TODO Auto-generated method stub
 		String command = request.getParameter("command");
-		if(command.equals("LOGIN"))
+		try 
 		{
-			
+			if(command.equals("LOGIN"))
+				logIn(request,response);
+			else if(command.contentEquals("SIGNUP")) 
+				signIn(request, response);
 		}
-		else if(command.contentEquals("SIGNUP")) 
+		catch(Exception exc)
 		{
-			String first = request.getParameter("first-name"),
-            last= request.getParameter("last-name"),
-            email= request.getParameter("email"),
-            password= request.getParameter("password");
-			dbUtil.insertUser(first, last, email, password);
+			exc.printStackTrace();
 		}
 		
+	}
+	
+	private void signIn(HttpServletRequest request, HttpServletResponse response) throws Exception
+	{
+		RequestDispatcher rd = request.getRequestDispatcher("/Login.jsp");
+		String first = request.getParameter("first-name"),
+	            last= request.getParameter("last-name"),
+	            email= request.getParameter("email"),
+	            password= request.getParameter("password");
+		dbUtil.insertUser(first, last, email, password);
+		rd.forward(request, response);
+	}
+	
+	private void logIn(HttpServletRequest request, HttpServletResponse response) throws Exception
+	{
+		RequestDispatcher rd = request.getRequestDispatcher("/Login.jsp");
+		String email = request.getParameter("email");
+		String password = request.getParameter("password");
+		if(!dbUtil.retrieveUser(email, password))
+			request.setAttribute("loginFail", "Invalid email/password");
+		else
+			request.setAttribute("loginFail", "Login successful!");
+		rd.forward(request, response);
 	}
 
 }
