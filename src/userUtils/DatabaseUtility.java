@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 import javax.sql.DataSource;
 
-public class DatabaseUtility 
+public class DatabaseUtility //directly connects web app to local database
 {
 	
 	private DataSource ds;
