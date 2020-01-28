@@ -1,46 +1,46 @@
 package userUtils;
 
-import java.sql.Connection; 
+import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import javax.sql.DataSource;
 
-public class DatabaseUtility //directly connects web app to local database
+public class DatabaseUtility //   directly connects web app to local database
 {
-	
+
 	private DataSource ds;
-	
-	public DatabaseUtility(DataSource ds) 
+
+	public DatabaseUtility(DataSource ds)
 	{
 		this.ds = ds;
 	}
-	
+
 	//Helper method to close connection to the database
-	private void close(Connection myConn, Statement myStmt, ResultSet myRs) 
+	private void close(Connection myConn, Statement myStmt, ResultSet myRs)
 	{
-		try 
+		try
 		{
-			if(myRs != null) 
+			if(myRs != null)
 			{
 				myRs.close();
 			}
 
-			if(myStmt != null) 
+			if(myStmt != null)
 			{
 				myStmt.close();
 			}
 
-			{ 
+			{
 				myConn.close();
 			}
 		}
-		catch(Exception exc) 
+		catch(Exception exc)
 		{
 			exc.printStackTrace();
 		}
 	}
-	
+
 	public void insertUser(String first, String last, String email, String password)
 	{
 		Connection conn = null;
