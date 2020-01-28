@@ -84,6 +84,7 @@ public class Controller extends HttpServlet
 		rd.forward(request, response);
 	}
 	
+	//abstraction that retrieves user data from the database and makes sure it correlates with the information given by user
 	private void logIn(HttpServletRequest request, HttpServletResponse response) throws Exception
 	{
 		RequestDispatcher rd = request.getRequestDispatcher("/Login.jsp");
