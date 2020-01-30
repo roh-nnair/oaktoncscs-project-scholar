@@ -63,7 +63,7 @@ public class Controller extends HttpServlet
 		{
 			if(command.equals("LOGIN"))
 				logIn(request,response);
-			else if(command.contentEquals("SIGNUP")) 
+			else if(command.equals("SIGNUP")) 
 				signIn(request, response);
 		}
 		catch(Exception exc)
