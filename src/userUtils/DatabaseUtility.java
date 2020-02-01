@@ -48,8 +48,8 @@ public class DatabaseUtility
 		try
 		{
 			conn = ds.getConnection();
-			stmnt = conn.prepareStatement("INSERT INTO users (email, password, first_name, last_name) VALUES"
-					+ "(?, ?, ?, ?)");
+			stmnt = conn.prepareStatement("INSERT INTO users (email, password, first_name, last_name, is_confirmed) VALUES"
+					+ "(?, ?, ?, ?, 0)");
 			stmnt.setString(1, email);
 			stmnt.setString(2, password);
 			stmnt.setString(3, first);
