@@ -88,5 +88,26 @@ public class DatabaseUtility
 		}
 		return false;
 	}
+	
+	public boolean isConfirmed(String email)
+	{
+		Connection conn = null;
+		PreparedStatement stmnt = null;
+		ResultSet rs = null;
+		try 
+		{
+			conn = ds.getConnection();
+			stmnt = conn.prepareStatement("select from users where email = ?");
+			stmnt.setString(1, email);
+			rs = stmnt.executeQuery();
+			rs.next();
+			if(rs.getString(5).equals("1"))
+				return true;
+		}
+		catch(Exception e) {}
+		finally {}
+		
+		return false;
+	}
 
 }
