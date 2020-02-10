@@ -49,7 +49,7 @@ public class DatabaseUtility //directly connects web app to local database
 		{
 			conn = ds.getConnection();
 			stmnt = conn.prepareStatement("INSERT INTO users (email, password, first_name, last_name, is_confirmed) VALUES"
-					+ "(?, ?, ?, ?, 0)");
+					+ "(?, ?, ?, ?, false)");
 			stmnt.setString(1, email);
 			stmnt.setString(2, password);
 			stmnt.setString(3, first);
