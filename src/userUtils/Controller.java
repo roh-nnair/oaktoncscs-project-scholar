@@ -96,11 +96,12 @@ public class Controller extends HttpServlet
 		String password = request.getParameter("password");
 		if(!dbUtil.retrieveUser(email, password))
 			request.setAttribute("loginFail", "Invalid email/password");
-		else if(!dbUtil.isConfirmed(email))
+		else if(!dbUtil.emailIsConfirmed(email))
 			request.setAttribute("loginFail", "User isn't confirmed; Be sure to confirm your email by clicking the link we sent.");
 		else
 			request.setAttribute("loginFail", "Login successful!");
 		rd.forward(request, response);
 	}
+	
 
 }
